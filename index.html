@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Mobile-first inventory dashboard powered by Google Sheets and GitHub Pages." />
+  <title>TOYPOD Inventory Managment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to dashboard</a>
+
+  <div class="app-shell">
+    <header class="hero" aria-label="Inventory dashboard overview">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Live Operations Dashboard</p>
+        <h1>Inventory Managment</h1>
+        <p class="subtitle">Track SKU stock, packaging boxes, party-wise sales and latest sheet entries from one dashboard.</p>
+      </div>
+
+      <div class="hero-panel" aria-label="Sync controls">
+        <span id="syncStatus" class="sync-pill">Loading…</span>
+        <button id="refreshBtn" class="btn primary" type="button">Refresh data</button>
+      </div>
+    </header>
+
+    <section id="metricGrid" class="metric-grid" aria-label="Inventory summary"></section>
+
+    <nav class="tabs" aria-label="Dashboard sections">
+      <button class="tab active" data-tab="inventory" type="button">Inventory</button>
+      <button class="tab" data-tab="boxes" type="button">Boxes</button>
+      <button class="tab" data-tab="parties" type="button">Parties</button>
+      <button class="tab" data-tab="logs" type="button">Logs</button>
+    </nav>
+
+    <main id="mainContent">
+      <section id="inventory" class="panel active" aria-labelledby="inventoryTitle">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">SKU Health</p>
+            <h2 id="inventoryTitle">SKU Inventory</h2>
+            <p>Search and filter live product stock. Critical items are automatically shown first.</p>
+          </div>
+          <div class="filters" role="search">
+            <label class="sr-only" for="inventorySearch">Search inventory</label>
+            <input id="inventorySearch" type="search" placeholder="Search SKU, product, category…" autocomplete="off" />
+            <label class="sr-only" for="statusFilter">Filter inventory status</label>
+            <select id="statusFilter" aria-label="Filter by status">
+              <option value="all">All status</option>
+              <option value="out">Out of stock</option>
+              <option value="low">Low stock</option>
+              <option value="ok">OK stock</option>
+            </select>
+          </div>
+        </div>
+        <div id="inventoryList" class="card-list"></div>
+      </section>
+
+      <section id="boxes" class="panel" aria-labelledby="boxesTitle">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Packaging Control</p>
+            <h2 id="boxesTitle">Box Stock Tracker</h2>
+            <p>Opening stock, purchase quantity, used boxes and closing stock from the Box Stock Tracker sheet.</p>
+          </div>
+          <div class="filters" role="search">
+            <label class="sr-only" for="boxSearch">Search box stock</label>
+            <input id="boxSearch" type="search" placeholder="Search box / SKU…" autocomplete="off" />
+          </div>
+        </div>
+        <div id="boxList" class="card-list"></div>
+      </section>
+
+      <section id="parties" class="panel" aria-labelledby="partiesTitle">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Sales Overview</p>
+            <h2 id="partiesTitle">Party-wise Sales</h2>
+            <p>Dispatch quantity, return quantity and net sales quantity by marketplace or party.</p>
+          </div>
+        </div>
+        <div id="partyList" class="card-list compact"></div>
+      </section>
+
+      <section id="logs" class="panel" aria-labelledby="logsTitle">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Recent Activity</p>
+            <h2 id="logsTitle">Recent Entries</h2>
+            <p>Latest production, dispatch, return and box purchase entries from your Google Sheet.</p>
+          </div>
+        </div>
+        <div id="logGrid" class="log-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="emptyStateTemplate">
+    <div class="empty-state">
+      <strong>No matching records</strong>
+      <span>Try clearing search/filter or check your Google Sheet data.</span>
+    </div>
+  </template>
+
+  <script src="config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

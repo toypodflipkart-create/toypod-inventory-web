@@ -1,0 +1,983 @@
+{
+  "updatedAt": "2026-06-23T09:04:54",
+  "source": "offline-demo",
+  "metrics": [
+    {
+      "label": "Total SKUs",
+      "key": "totalSkus",
+      "value": 23
+    },
+    {
+      "label": "Total Current Stock",
+      "key": "totalCurrentStock",
+      "value": 0
+    },
+    {
+      "label": "Low Stock SKUs",
+      "key": "lowStockSkus",
+      "value": 0
+    },
+    {
+      "label": "Out of Stock SKUs",
+      "key": "outOfStockSkus",
+      "value": 23
+    },
+    {
+      "label": "Today's Production",
+      "key": "todaySProduction",
+      "value": 0
+    },
+    {
+      "label": "Total Dispatched",
+      "key": "totalDispatched",
+      "value": 0
+    },
+    {
+      "label": "Total Returned",
+      "key": "totalReturned",
+      "value": 0
+    },
+    {
+      "label": "Net Sales Qty",
+      "key": "netSalesQty",
+      "value": 0
+    },
+    {
+      "label": "Total Parties",
+      "key": "totalParties",
+      "value": 6
+    }
+  ],
+  "managementMIS": {
+    "totalSkus": 23,
+    "totalCurrentStock": 0,
+    "lowStockSkus": 0,
+    "outOfStockSkus": 23,
+    "todaySProduction": 0,
+    "totalDispatched": 0,
+    "totalReturned": 0,
+    "netSalesQty": 0,
+    "totalParties": 6
+  },
+  "skuMaster": [
+    {
+      "__row": 3,
+      "skuCode": "BOUNCE",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 3499,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 4,
+      "skuCode": "FERRARI WALKER",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 3499,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 5,
+      "skuCode": "GINIE 2IN1",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": null,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 6,
+      "skuCode": "GINIE HANDLE",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 4999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 7,
+      "skuCode": "VICTOR",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 3499,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 8,
+      "skuCode": "ENVY",
+      "productName": "Tri Cycle",
+      "brand": "TOY POD",
+      "category": "Tri Cycle",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 9,
+      "skuCode": "BUNNY MUSICAL",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 10,
+      "skuCode": "MICKEY",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 11,
+      "skuCode": "TURBO P",
+      "productName": "Tri Cycle",
+      "brand": "TOY POD",
+      "category": "Tri Cycle",
+      "mrp": 3999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 12,
+      "skuCode": "TURBO P WITH ARM REST",
+      "productName": "Tri Cycle",
+      "brand": "TOY POD",
+      "category": "Tri Cycle",
+      "mrp": 5999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 13,
+      "skuCode": "TURBO S",
+      "productName": "Tri Cycle",
+      "brand": "TOY POD",
+      "category": "Tri Cycle",
+      "mrp": 3499,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 14,
+      "skuCode": "TURBO U",
+      "productName": "Tri Cycle",
+      "brand": "TOY POD",
+      "category": "Tri Cycle",
+      "mrp": 6999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 15,
+      "skuCode": "DONUT",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2199,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 16,
+      "skuCode": "TINY",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 17,
+      "skuCode": "POPPY",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2499,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 18,
+      "skuCode": "TIGER HANDLE",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 19,
+      "skuCode": "CHARLIE DLX",
+      "productName": "Rideon",
+      "brand": "TOY POD",
+      "category": "Rideon",
+      "mrp": 4999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 20,
+      "skuCode": "DINO DLX",
+      "productName": "Rideon",
+      "brand": "TOY POD",
+      "category": "Rideon",
+      "mrp": 4999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 21,
+      "skuCode": "RIO",
+      "productName": "Rideon",
+      "brand": "TOY POD",
+      "category": "Rideon",
+      "mrp": 4999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 22,
+      "skuCode": "SUPER BIKE",
+      "productName": "Tri Cycle",
+      "brand": "TOY POD",
+      "category": "Tri Cycle",
+      "mrp": 3999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 23,
+      "skuCode": "LOTTO",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 24,
+      "skuCode": "TIGLY",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2499,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    },
+    {
+      "__row": 25,
+      "skuCode": "SPINNY",
+      "productName": "Baby Walker",
+      "brand": "TOY POD",
+      "category": "Baby Walker",
+      "mrp": 2999,
+      "casePack": null,
+      "minStock": 20,
+      "costPrice": null
+    }
+  ],
+  "inventoryDashboard": [
+    {
+      "__row": 4,
+      "skuCode": "BOUNCE",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 5,
+      "skuCode": "FERRARI WALKER",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 6,
+      "skuCode": "GINIE 2IN1",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 7,
+      "skuCode": "GINIE HANDLE",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 8,
+      "skuCode": "VICTOR",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 9,
+      "skuCode": "ENVY",
+      "productName": "Tri Cycle",
+      "category": "Tri Cycle",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 10,
+      "skuCode": "BUNNY MUSICAL",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 11,
+      "skuCode": "MICKEY",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 12,
+      "skuCode": "TURBO P",
+      "productName": "Tri Cycle",
+      "category": "Tri Cycle",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 13,
+      "skuCode": "TURBO P WITH ARM REST",
+      "productName": "Tri Cycle",
+      "category": "Tri Cycle",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 14,
+      "skuCode": "TURBO S",
+      "productName": "Tri Cycle",
+      "category": "Tri Cycle",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 15,
+      "skuCode": "TURBO U",
+      "productName": "Tri Cycle",
+      "category": "Tri Cycle",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 16,
+      "skuCode": "DONUT",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 17,
+      "skuCode": "TINY",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 18,
+      "skuCode": "POPPY",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 19,
+      "skuCode": "TIGER HANDLE",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 20,
+      "skuCode": "CHARLIE DLX",
+      "productName": "Rideon",
+      "category": "Rideon",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 21,
+      "skuCode": "DINO DLX",
+      "productName": "Rideon",
+      "category": "Rideon",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 22,
+      "skuCode": "RIO",
+      "productName": "Rideon",
+      "category": "Rideon",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 23,
+      "skuCode": "SUPER BIKE",
+      "productName": "Tri Cycle",
+      "category": "Tri Cycle",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 24,
+      "skuCode": "LOTTO",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 25,
+      "skuCode": "TIGLY",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 26,
+      "skuCode": "SPINNY",
+      "productName": "Baby Walker",
+      "category": "Baby Walker",
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": 20,
+      "status": "❌ Out of Stock"
+    },
+    {
+      "__row": 27,
+      "skuCode": "TOTALS",
+      "productName": null,
+      "category": null,
+      "openingStock": 0,
+      "totalProduced": 0,
+      "totalDispatched": 0,
+      "totalReturned": 0,
+      "currentStock": 0,
+      "minStock": null,
+      "status": null
+    }
+  ],
+  "partySalesSummary": [
+    {
+      "__row": 3,
+      "partyName": "Flipkart",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    },
+    {
+      "__row": 4,
+      "partyName": "Amazon",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    },
+    {
+      "__row": 5,
+      "partyName": "Meesho",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    },
+    {
+      "__row": 6,
+      "partyName": "FirstCry",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    },
+    {
+      "__row": 7,
+      "partyName": "Myntra",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    },
+    {
+      "__row": 8,
+      "partyName": "Direct / Wholesale",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    },
+    {
+      "__row": 9,
+      "partyName": "TOTAL",
+      "totalQtyDispatched": 0,
+      "totalQtyReturned": 0,
+      "netSalesQty": 0
+    }
+  ],
+  "boxStockTracker": [
+    {
+      "__row": 5,
+      "boxTypeSize": "BOUNCE",
+      "openingBoxStock": 3,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 3,
+      "minStock": 25,
+      "reOrderAlert": "🔴 REORDER NOW",
+      "totalPurchased": 3
+    },
+    {
+      "__row": 6,
+      "boxTypeSize": "FERRARI WALKER",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 7,
+      "boxTypeSize": "GINIE 2IN1",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 8,
+      "boxTypeSize": "GINIE HANDLE",
+      "openingBoxStock": 110,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 110,
+      "minStock": 25,
+      "reOrderAlert": "✅ SUFFICIENT",
+      "totalPurchased": 110
+    },
+    {
+      "__row": 9,
+      "boxTypeSize": "VICTOR",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 10,
+      "boxTypeSize": "ENVY",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 11,
+      "boxTypeSize": "BUNNY MUSICAL",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 12,
+      "boxTypeSize": "MICKEY",
+      "openingBoxStock": 24,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 24,
+      "minStock": 25,
+      "reOrderAlert": "🔴 REORDER NOW",
+      "totalPurchased": 24
+    },
+    {
+      "__row": 13,
+      "boxTypeSize": "TURBO P",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 14,
+      "boxTypeSize": "TURBO P WITH ARM REST",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 15,
+      "boxTypeSize": "TURBO S",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 16,
+      "boxTypeSize": "TURBO U",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 17,
+      "boxTypeSize": "DONUT",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 18,
+      "boxTypeSize": "TINY",
+      "openingBoxStock": 44,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 44,
+      "minStock": 25,
+      "reOrderAlert": "✅ SUFFICIENT",
+      "totalPurchased": 44
+    },
+    {
+      "__row": 19,
+      "boxTypeSize": "POPPY",
+      "openingBoxStock": 30,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 30,
+      "minStock": 25,
+      "reOrderAlert": "🟡 MONITOR",
+      "totalPurchased": 30
+    },
+    {
+      "__row": 20,
+      "boxTypeSize": "TIGER HANDLE",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 21,
+      "boxTypeSize": "CHARLIE DLX",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 22,
+      "boxTypeSize": "DINO DLX",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 23,
+      "boxTypeSize": "RIO",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 24,
+      "boxTypeSize": "SUPER BIKE",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 25,
+      "boxTypeSize": "LOTTO",
+      "openingBoxStock": 37,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 37,
+      "minStock": 25,
+      "reOrderAlert": "🟡 MONITOR",
+      "totalPurchased": 37
+    },
+    {
+      "__row": 26,
+      "boxTypeSize": "TIGLY",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 0,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 0,
+      "minStock": 25,
+      "reOrderAlert": "❌ OUT OF STOCK",
+      "totalPurchased": 0
+    },
+    {
+      "__row": 27,
+      "boxTypeSize": "SPINNY",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": 28,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 28,
+      "minStock": 25,
+      "reOrderAlert": "🟡 MONITOR",
+      "totalPurchased": 28
+    },
+    {
+      "__row": 28,
+      "boxTypeSize": "TOTAL",
+      "openingBoxStock": 248,
+      "purchasedPurchaseLog": 28,
+      "boxesUsedSalesDispatch": 0,
+      "closingBoxStock": 276,
+      "minStock": null,
+      "reOrderAlert": null,
+      "totalPurchased": null
+    },
+    {
+      "__row": 30,
+      "boxTypeSize": "✅ SUFFICIENT > 1.5× min  |  🟡 MONITOR between min & 1.5×  |  🔴 REORDER NOW < min  |  ❌ OUT OF STOCK = 0",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": null,
+      "boxesUsedSalesDispatch": null,
+      "closingBoxStock": null,
+      "minStock": null,
+      "reOrderAlert": null,
+      "totalPurchased": null
+    },
+    {
+      "__row": 31,
+      "boxTypeSize": "📌  Returns are logged in the Returns sheet but are NOT deducted from box stock — boxes used in dispatch are not recovered on return.",
+      "openingBoxStock": null,
+      "purchasedPurchaseLog": null,
+      "boxesUsedSalesDispatch": null,
+      "closingBoxStock": null,
+      "minStock": null,
+      "reOrderAlert": null,
+      "totalPurchased": null
+    }
+  ],
+  "dailyProduction": [],
+  "dispatch": [],
+  "returns": [],
+  "boxPurchaseLog": [
+    {
+      "__row": 4,
+      "date": "2026-06-07",
+      "boxTypeSku": "SPINNY",
+      "qtyPurchased": 28,
+      "supplierSource": "SUNDER PLASTIC",
+      "remarks": null
+    }
+  ]
+}
